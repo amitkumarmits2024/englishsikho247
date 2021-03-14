@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+   <!--my CSS -->
+  <link rel="stylesheet" href="backstyle.css">
+  <link rel="stylesheet" href="sidenavbar.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="Overview.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1075419b2d.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alata&family&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@100&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+   
+  <title>Basic/There</title>
+
+</head>
+
+<body class="body">
+   
+  <!--logo section-->
+    <div style="padding-top:24px;" class="w3-row">
+      <div style="width:30%" class="w3-col w3-mobile w3-container w3-center w3-dark">
+        <img class="mx-auto d-block img-fluid" src="weblogo.png" alt="logo" style="min-width: 250px; height: 30px;">
+       </div>
+       <div  style="width:40%" class="w3-col w3-mobile w3-container w3-hide-small w3-dark">
+        
+       </div>
+       <div style="font-family:'Roboto', sans-serif; width: 30%;font-size: 14px;" class="w3-col w3-mobile w3-center w3-container w3-dark w3-text-white ">
+         <p id="tagline"><strong>THE BEST PLATEFORM TO LEARN ENGLISH</strong></p>
+       </div>
+    </div>
+   
+
+   <!--navbar-->
+   <div class="navbar">
+    <div style="font-size: 18px; letter-spacing: 2px;" class="w3-bar w3-light-grey">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-animate-left w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
+      <a href="home.html" class="w3-bar-item w3-button"><i class="fas fa-home"></i></a>
+      <a href="alphabets.html"class="w3-bar-item w3-button w3-hide-small">KIDS</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">BASIC</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">ACADEMIC</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">COMPETITIVE</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">SPEAKING</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">EXAMPLES</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">BLOG</a>
+      <a href="vedio.html" class="w3-bar-item w3-button"><i class="fas fa-video"></i></a>
+      <a href="book.html" class="w3-bar-item w3-button"><i class="fas fa-book"></i></a>
+      <a href="download.html" class="w3-bar-item w3-button"><i class="fas fa-cloud-download-alt"></i></a>
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fas fa-sign-in-alt"></i></a>
+     
+    </div>
+   </div>
+
+<!--sidebar-->
+  <div class="w3-row">
+    <div class="w3-bar-block w3-grey w3-sidebar w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+      <h5>KIDS ENGLISH</h5>
+      <a class="w3-bar-item w3-button" href="alphabets.html">Alphabets</a>
+      <a class="w3-bar-item w3-button" href="vowel.html">Vowels</a>
+      <a class="w3-bar-item w3-button" href="#">Consonants</a>
+      <a class="w3-bar-item w3-button" href="#">Words</a>
+      <a class="w3-bar-item w3-button" href="#">Jumble Letters</a>
+      <a class="w3-bar-item w3-button" href="#">Colour Names</a>
+      <a class="w3-bar-item w3-button" href="#">Body Parts</a>
+      <a class="w3-bar-item w3-button" href="#">Relations</a>
+      <a class="w3-bar-item w3-button" href="#">Pronunciation</a>
+      <a class="w3-bar-item w3-button" href="#">Synonyms</a>
+      <a class="w3-bar-item w3-button" href="#">Antonyms</a>
+      <a class="w3-bar-item w3-button" href="#">Poems</a>
+      <a class="w3-bar-item w3-button" href="#">Extra Cirriculars</a>
+      <h5>BASIC ENGLISH</h5>
+      <a class="w3-bar-item w3-button" href="partsofspeech.html">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="there.html">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="withoutmv.html">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+      <h5>ACADEMIC</h5>
+      <a class="w3-bar-item w3-button" href="#">Class 1</a>
+      <a class="w3-bar-item w3-button" href="#">Class 2</a>
+      <a class="w3-bar-item w3-button" href="#">Class 3</a>
+      <a class="w3-bar-item w3-button" href="#">Class 4</a>
+      <a class="w3-bar-item w3-button" href="#">Class 5</a>
+      <a class="w3-bar-item w3-button" href="#">Class 6</a>
+      <a class="w3-bar-item w3-button" href="#">Class 7</a>
+      <a class="w3-bar-item w3-button" href="#">Class 8</a>
+      <a class="w3-bar-item w3-button" href="#">Class 9</a>
+      <a class="w3-bar-item w3-button" href="#">Class 10</a>
+      <a class="w3-bar-item w3-button" href="#">Class 11</a>
+      <a class="w3-bar-item w3-button" href="#">Class 12</a>
+      <h5>COMPETITIVE</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+      <h5>SPEAKING RULES</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+    </div>
+
+<!--page content-->    
+    <div class="w3-main w3-container w3-mobile" style="margin-left:200px; width: 70%;">
+    <div class="w3-teal">
+      <div class="w3-container">
+        <h1>Use Of "There"</h1>
+      </div>
+    </div>
+    <div style="padding-top: 20px; padding-bottom: 50px;" class="overview w3-container w3-mobile w3-text-white w3-dark-grey">
+   
+
+         
+         <p>2. Use of There, It, This, That, These and those </p>
+         
+         <p><b>3. without Main Verb Sentences</b></p>
+        
+      <p> 1. is /am / are -</p>
+       <p> 2. was/were -</p>
+       <p> 3. will be /shall be</p>
+      <p>  4. Can be5. Could be </p>
+        <p>6. Must be/should be</p> 
+        <p>7. has/have8. had </p>
+       <p> 9. Will have/shall have</p>
+        <p>10. Can have</p>
+      <p>  11. Could have</p>
+        <p>12. Must have/should have</p>
+        <p>13. Has been/ have been</p>
+        <p>14. Had been</p>
+        <p>15. Would have been /should have been</p>
+       <p><b> Structure-</b></p>
+       <p> [Subject + Helping Verb + Adjective + object]</p>
+
+       <p><b> Chapter-4   </b></p>
+        <p><b>4. Tense- (Time)</b></p>
+        <p><b>Present Tense</b></p>
+        
+        <p>1. Present indefinite – do/does/v1
+          +s/es</p>
+        <p>2. Present continuous- is /am are +v1
+          ing</p>
+        <p>3. present perfect - Has/Have +v3</p>
+        <p>4. Present perfect continuous - + time- Has / have+ been+v1
+          ing</p>
+        
+        <p><b>Past Tense</b></p>
+       <p> 5. past indefinite - did +v2</p>
+        <p>6. Past continuous - - was / were +v1
+          ing</p>
+        <p>7. past perfect - Had+v3</p>
+       <p> 8. Past perfect continuous - + time- Had been+v1
+        ing</p>
+        <p><b>Future Tense</b></p>
+        <p>9. Future indefinite - will/shall+v1</p>
+        <p>10. Fast continuous - will /shall+ be +v1
+          ing</p>
+        <p>11. Fast perfect - will have/shall have+v3</p>
+        <p>12. Past perfect continuous - + time will/shall have been+v1
+          ing</p>
+        
+        <p><b>Structure-</b></p>
+         <p><b>[Subject + Helping Verb + Main Verb + object]</b></p>
+         <p><b> Chapter-5   </b></p>
+         <p><b>Modals</b></p>
+         <p>Modal Name</p>
+        <p>1. Can- (ability)</p>
+        <p>2. Could (for past)</p>
+        <p>3. May (request)</p>
+       <p> 4. Might (possibility)</p>
+        <p>5. Would</p>
+        <p>5. Would</p>
+        <p>7. must/should/ought to</p>
+        <p>8. Used to</p>
+       <p> 9. Need -</p>
+        <p>10. Dare -</p>
+        <p><b>[Sub + Modal + V1 + Obj + Ow]</b></p>
+
+        <p><b> Chapter-6   </b></p>
+        <p><b>Some More Important Rules-</b></p>
+        
+        <p>1. Imperative Sentences
+          2. Emphatic -
+          3. Let -
+          4. Let’s -
+          5. keep -
+          6. Get -
+          7. Feel -
+          8. Run -
+          9. Shall -
+          10. Cost -</p>
+        
+
+          <p><b> Chapter-7   </b></p>
+        <p><b>Question Words</b></p>
+       <p> What 
+        Why
+        When
+        Where
+        How
+        Who</p>
+        <p><b>Structure – [ Question word+HV+Sub +MV+Obj+ow? ]</b></p>
+        <p>Which
+          Whose
+          Whom
+          How many
+          How much</p>
+        <p><b>Structure – [Question word+ Noun + HV+Sub +MV+Obj+ow?]</b></p>
+
+        <p><b> Chapter-8   </b></p>
+       <p><b> Vocabulary </b></p>
+        <p>1. Main Verbs - 800</p>
+        <p>2. Daily Usages Meanings - 600</p>
+       <p> 3. Daily Usages Sentences – 300</p>
+
+       <p><b> Chapter-9   </b></p>
+        <p><b>Speaking Rules (Part-2)</b></p>
+        <p>Rules  [To+v1]</p>
+         
+        <p>1. Has to/Have to</p>
+        <p>2. Had to</p>
+       <p> 3. Will have to</p>
+        <p>4. Going to</p>
+        <p>5. Able to</p>
+        <p>6. About to</p>
+        <p>7. Having to</p>
+        <p>8. Want to /wants to</p>
+        <p>[Sub + Has to/Have to + V1 + Obj + Ow]</p>
+
+        <p><b> Chapter-10   </b></p>
+        <p><b>[V1+ing]</b></p>
+        <p>9. Like/Likes</p>
+       <p> 10. Keep on / keeps on</p>
+        <p>11. Feel like /feels like</p>
+        <p>12. Found of</p>
+        <p>13. Cannot help</p>
+        <p>14. Could not help</p>
+       <p> 15. Start / Starts</p>
+        <p>[Sub + keep on/keeps on + v1ing +Obj+ ow]</p>
+
+        <p><b> Chapter-11   </b></p>
+        <p>16. Stop/Stops</p>
+        <p>16. Insist on/Insists on</p>
+        <p>17. Could have</p>
+        <p>18. Would have</p>
+        <p>19. Must have /should have</p>
+        <p>20. Make</p>
+        <p>21. Get</p>
+     <p>   22. Let</p>
+
+     <p><b> Chapter-12  </b></p>
+       <p> <b>Passive Voice</b></p>
+       <p><b> Present Tense</b></p>
+        <p><b> Tense Helping verb</b></p>
+      <p>  1. Present indefinite – is /am are+v3</p>
+      <p>  2. Present continuous- is /am are +being +v3</p>
+        
+        
+        <p>3. Present perfect - has/have been +v3</p>
+       <p><b> Past Tense</b></p>
+        <p>1. Past indefinite - was / were +v3</p>
+        <p>2. Past continuous - was / were +being+v3</p>
+       <p> 3. Past perfect - had been+v3</p>
+        <p><b>Future Tense</b></p>
+       <p> 1. Future indefinite - Will be/shall be+v3</p>
+        <p>2. Future perfect - Will/shall have+ been+ v3</p>
+        
+        
+        <p><b>[ Obj + HV + MV3 + by +Sub + Ow]</b></p>
+        <p><b>Modals (Voice)</b></p>
+        <p><b> Modal</b></p>
+       <p> 1. Can be- (Ability)</p>
+      <p>  2. Could be (For Past)</p>
+       <p> 3. May be (Request)</p>
+        <p>4. Might be (Possibility)</p>
+        
+       <p> 5. Would be</p>
+        <p>7. Must be/should be</p>
+        <p>8. Has to be/Have to be</p>
+       <p> 9. Had to be</p>
+        <p>10. Will have to be</p>
+        <p>11. Should have been</p>
+        <p>12. To + be +V3</p>
+        <p><b>[ Obj + Modal Be + MV3 + by +Sub + Ow]</b></p>
+       
+        
+        <p><b> Chapter-13   </b></p>
+        <p><b>Vocabulary –</b></p>
+        <p>1. Synonyms - 1000</p>
+        <p>2. Antonyms - 1000</p>
+        <p>3. Phrasal verbs – 500</p>
+        <p>4. Proverbs / Idioms - 300</p>
+        <p>5. Meanings - 200</p>
+
+        <p><b> Chapter-14   </b></p>
+        <p><b>Basic Topics</b></p>
+        <div style="background: blue;" class="w3-row">
+          <div class="w3-col"><p>1. Importance of English</p>
+            <p> 3. Importance of Mobile       </p>
+             <p>5. Importance of Environment   </p>
+             <p>7. Importance of Water         </p>
+             <p>9. Importance of Friend        </p>
+             <p>11. Importance of Teacher      </p>
+            <p> 13. Importance of Computer     </p>
+             <p>15. Importance of School       </p>
+            <p> 17. Importance of Agriculture </p>
+           <p>  19. Importance of Government </p>
+           <p>  21. Importance of Guru </p>
+            <p> 23. Importance of Transportation </p>
+             <p>25. Importance of Game & Sports </p>
+             <p>27. Importance of festival </p>
+             <p>29. Importance of Health </p>   </div>
+          <div style="background-color: brown;" class="w3-col">  2. Importance of Education 
+            <p> 4. Importance of Money</p>   
+          <p>6. Importance of Knowledge</p>
+        <p>8. Importance of Book</p>
+        <p>10. Importance of Parents</p>
+        <p>12. Importance of T.V.</p>
+        <p>14. Importance of Media</p>
+        <p>16. Importance of College</p>
+        <p>18. Importance of Police</p>
+        <p>20. Importance of God</p>
+        <p>22. Importance of Culture</p>
+        <p>24. Importance of Coaching</p>
+        <p>26 Importance of Science</p>
+      m<p>28 Democracy</p>
+<p>30 Importance of Internet</p>
+
+
+
+        </div>
+
+        </div>
+        <p><b> Chapter-14   </b></p>
+        <p><b>Topic for Group Discussion</b></p>
+        
+        <p><b>Which is better -?</b></p>
+        <p>1. Village life and City life</p>
+       <p> 2. Government job and Private Job</p>
+       <p> 3. Joint family and Nuclear family</p>
+        <p>4. Indian’s Product and China’s Product</p>
+        <p>5. Mobile and television</p>
+       <p> 6. Govt. School and Private school</p>
+        <p>7. Love marriage and Arrange marriage</p>
+        <p>8. School life and College life</p>
+        <p>9. Girl Child and Boy Child</p>
+        <p>10. Indian culture and western culture</p>
+        <p>11. Theoretical Education and Practical Education</p>
+
+        <p><b> Chapter-15   </b></p>
+        <p> <b>Topic for Pannel Discussion</b></p>
+        <p>1. Democracy</p> <p>2. Corruption</p>
+       <p> 3. Demonetization 4.</p> Technology
+        <p>5. Terrorism 6. Tourism</p>
+        <p>7. Globalization 8. Privatization</p>
+       <p> 9. Election 10. Woman improvement</p>
+      <p>  11. Education 12. Media</p>
+       <p> 13. Social sites 14. Unemployment</p>
+        <p>15 poverty 16 Pollution
+          s</p>
+      
+<p>Chapter -2
+  <p><b>Without Main Verb Sentences</b></p>
+  <p>1.Is/Am /Are   -  है</p>
+  <p>Rule-[ s + is / am / are + ob + ow]</p>		
+  <p> Examples-</p> 
+  	<p>वह इस समय कमरे में है</p>
+       <p>He is in the room at this time</p>
+  	<p>वह मेरा दोस्त नहीं है</p>
+        <p>He is not my friend </p>
+  <p>आज बहुत गर्मी है</p>
+        <p>It is very hot today</p>
+  <p>क्या तुम उसके भाई हो</p>
+       <p> Are you his brother?</p>		
+  <p><b>	Practice Exercise</b></p>
+    
+
+  <p><b>2. Was/ were   -  था</b></p>
+<p><b>Rule- [s + was/were + ob + ow]</b></p>
+<p><b>Examples- </b></p> 
+<p>वह मेरा मित्र था।</p>
+     <p>He was my Friend.</p> 
+    <p> उस दिन वह मेरे साथ नहीं था।</p>
+    <p> He was not with me that day. </p>
+	<p>वे कल स्कूल में थे।</p>
+     <p>They were in the school yesterday.</p> 
+     <p>क्या वह आपका दोस्त था?</p>
+     <p>Was He your Friend? </p>
+	<p><b>Practice Exercise</b></p>
+
+
+ <p><b> 3.	Will be /Shall be   - होगा / होगा</b></p>
+ 
+<p><b>Rule- [s + will be /shall be +ob+ow]</b></p>
+
+<p><b>Examples-</b></p>
+
+
+<p>वह मेरा दोस्त होगा।</p>
+<p>He will be my Friend. </p>
+<p>आपके साथ सब कुछ अच्छा होगा।</p>
+<p>Everything will be good with you. </p>
+    
+<p>    वह इस समय बिलासपुर में होंगे।</p>
+ 
+<p>He will be in Bilaspur at this time.</p>
+<p> क्या आपका दोस्त घर पर नहीं होगा?</p>
+<p>Will your friend not be at home?</p>
+
+Mixed Examples:- 
+
+<p>I like you a lot.    -     मैं तुम्हे बहुत चाहता हूँ।</p> 
+<p><b>I never gave him money.</b></p> 
+There were many people shouting on the road. 
+Will he have gone to school? 
+I often go to his place/home. 
+He sometimes comes my home. 
+We wake up till late. 
+With whose brother was I dancing? 
+You’ve been searching something since afternoon. 
+I know it will happen. 
+You had gone there. 
+I have seen Ram. 
+His father came to my home. 
+He has told me. 
+Did he say? 
+He never went. 
+Suresh will meet me. 
+We left for school at 7. 
+Children never went. 
+I don’t like this. 
+Ram loves him/her. 
+Everything changes with time. 
+Money changes one’s character. 
+He has found something, probably a pen. 
+I have solved this question before as well. 
+
+    
+    
+    
+    
+    
+    
+    
+    
+  </p>
+
+
+
+    </div>
+
+    <div class="w3-rest w3-container w3-dark">
+      <div class="overview w3-text-white">
+        <h5>1. Overview Of Sentences</h5>
+        
+      </div> 
+    </div> 
+  </div>
+  <div class="w3-rest w3-bar-block w3-hide-small">
+    <p>rest</p>
+  </div> 
+  </div>
+
+   <!--my JavaScript -->
+   <script src="main.js"></script>
+   <script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+ </body>
+</html>

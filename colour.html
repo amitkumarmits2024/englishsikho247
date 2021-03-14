@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+   <!--my CSS -->
+  <link rel="stylesheet" href="backstyle.css">
+  <link rel="stylesheet" href="sidenavbar.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="Overview.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1075419b2d.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alata&family&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@100&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+   
+  <title>Kids</title>
+
+</head>
+
+<body class="body">
+   
+  <!--logo section-->
+    <div style="padding-top:24px;" class="w3-row w3-mobile">
+      <div style="width:30%;" class="w3-col w3-mobile w3-container w3-center w3-dark">
+        <img class="mx-auto d-block img-fluid" src="weblogo.png" alt="logo" style="min-width: 250px; height: 30px;">
+       </div>
+       <div  style="width:40%" class="w3-col w3-mobile w3-container w3-hide-small w3-dark">
+        
+       </div>
+       <div style="font-family:'Roboto', sans-serif; width: 30%;font-size: 14px;" class="w3-col w3-mobile w3-center w3-container w3-dark w3-text-white ">
+         <p id="tagline"><strong>THE BEST PLATEFORM TO LEARN ENGLISH</strong></p>
+       </div>
+    </div>
+   
+
+   <!--navbar-->
+   <div  class="navbar w3-mobile">
+    <div style="font-size: 18px; letter-spacing: 2px;" class="w3-bar w3-mobile w3-light-grey">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-animate-left w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
+      <a href="home.html" class="w3-bar-item w3-button"><i class="fas fa-home"></i></a>
+      <a href="alphabets.html"class="w3-bar-item w3-button w3-hide-small">KIDS</a>
+      <a href="partsofspeech.html" class="w3-bar-item w3-button w3-hide-small">BASIC</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">ACADEMIC</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">COMPETITIVE</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">SPEAKING</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">EXAMPLES</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">BLOG</a>
+      <a href="vedio.html" class="w3-bar-item w3-button"><i class="fas fa-video"></i></a>
+      <a href="book.html" class="w3-bar-item w3-button"><i class="fas fa-book"></i></a>
+      <a href="download.html" class="w3-bar-item w3-button"><i class="fas fa-cloud-download-alt"></i></a>
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fas fa-sign-in-alt"></i></a>
+     
+    </div>
+   </div>
+
+<!--sidebar-->
+  <div class="w3-row ">
+    <div class="w3-bar-block w3-grey w3-sidebar w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large w3-hide-large" ontoggle="w3_close()">Close &times;</button>
+      <h5>KIDS ENGLISH</h5>
+      <a class="w3-bar-item w3-button" href="alphabets.html">Alphabets</a>
+      <a class="w3-bar-item w3-button" href="vowel.html">Vowels</a>
+      <a class="w3-bar-item w3-button" href="consonant.html">Consonants</a>
+      <a class="w3-bar-item w3-button" href="words.html">Words</a>
+      <a class="w3-bar-item w3-button" href="jumble.html">Jumble Letters</a>
+      <a class="w3-bar-item w3-button" href="colour.html">Colour Names</a>
+      <a class="w3-bar-item w3-button" href="body.html">Body Parts</a>
+      <a class="w3-bar-item w3-button" href="relation.html">Relations</a>
+      <a class="w3-bar-item w3-button" href="pronounce.html">Pronunciation</a>
+      <a class="w3-bar-item w3-button" href="synonyms.html">Synonyms</a>
+      <a class="w3-bar-item w3-button" href="antonyms.html">Antonyms</a>
+      <a class="w3-bar-item w3-button" href="poems.html">Poems</a>
+      <a class="w3-bar-item w3-button" href="extra.html">Extra Cirriculars</a>
+      <h5>BASIC ENGLISH</h5>
+      <a class="w3-bar-item w3-button" href="partsofspeech.html">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="there.html">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="it.html">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="this.html">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="that.html">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="these.html">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="those.html">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="withoutmv.html">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="tense.html">Tense</a>
+      <a class="w3-bar-item w3-button" href="model.html">Model</a>
+      <a class="w3-bar-item w3-button" href="rules.html">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="determiners.html">Determiners</a>
+      <a class="w3-bar-item w3-button" href="qw.html">Question Words</a>
+      <a class="w3-bar-item w3-button" href="voice.html">Passive Voice</a>
+      <h5>ACADEMIC</h5>
+      <a class="w3-bar-item w3-button" href="first.html">Class 1</a>
+      <a class="w3-bar-item w3-button" href="#">Class 2</a>
+      <a class="w3-bar-item w3-button" href="#">Class 3</a>
+      <a class="w3-bar-item w3-button" href="#">Class 4</a>
+      <a class="w3-bar-item w3-button" href="#">Class 5</a>
+      <a class="w3-bar-item w3-button" href="#">Class 6</a>
+      <a class="w3-bar-item w3-button" href="#">Class 7</a>
+      <a class="w3-bar-item w3-button" href="#">Class 8</a>
+      <a class="w3-bar-item w3-button" href="#">Class 9</a>
+      <a class="w3-bar-item w3-button" href="#">Class 10</a>
+      <a class="w3-bar-item w3-button" href="#">Class 11</a>
+      <a class="w3-bar-item w3-button" href="#">Class 12</a>
+      <h5>COMPETITIVE</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+      <h5>SPEAKING RULES</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+    </div>    
+
+<!--page content-->    
+    <div class="w3-col w3-main w3-container w3-mobile" style="margin-left:200px;margin-top: 0px; width: 70%;">
+    <div class="w3-teal">
+      <div class="w3-container">
+        <h1>Colour</h1>
+      </div>
+    </div>
+    
+    <div class="w3-container w3-mobile w3-text-white w3-dark-grey">
+      <p>Verb</p>
+      <p>Noun - संज्ञा </p>   
+      <p>Pronoun</p>
+      <p>Adjective</p>
+      <p>Adverb </p>  
+         Conjunction 
+         Articles and
+         Determiners
+         2. Use of There 
+         It, This, That, These and those
+         3. without Main Verb Sentences
+        
+        1. is /am / are -
+        2. was/were -
+        3. will be /shall be -
+        4. Can be5. Could be -
+        6. Must be/should be -
+        7. has/have8. had -
+        9. Will have/shall have10. Can have11. Could have
+        12. Must have/should have13. Has been/ have been14. Had been -
+        15. Would have been /should have beenStructure-
+        [Subject + Helping Verb + Adjective + object]
+         4. Tense- (Time)
+        Present Tense
+         Tense name helping verb
+        1. Present indefinite – do/does/v1
+        +s/es
+        2. Present continuous- is /am are +v1
+        ing
+        3. present perfect - Has/Have +v3
+        4. Present perfect continuous - + time- Has / have+ been+v1
+        ing
+        
+        Past Tense
+        5. past indefinite - did +v2
+        6. Past continuous - - was / were +v1
+        ing
+        7. past perfect - Had+v3
+        8. Past perfect continuous - + time- Had been+v1
+        ing
+        Future Tense
+        9. Future indefinite - will/shall+v1
+        10. Fast continuous - will /shall+ be +v1
+        ing
+        11. Fast perfect - will have/shall have+v3
+        12. Past perfect continuous - + time will/shall have been+v1
+        ing
+        
+        Structure-
+         [Subject + Helping Verb + Main Verb + object]
+        
+         Modals
+         Modal Name
+        1. Can- (ability)
+        2. Could (for past)
+        3. May (request)
+        4. Might (possibility)
+        5. Would
+        6. Would like to
+        7. must/should/ought to
+        8. Used to
+        9. Need -
+        10. Dare -
+        [Sub + Modal + V1 + Obj + Ow]
+         Some More Important Rules-
+        
+        1. Imperative Sentences
+        2. Emphatic -
+        3. Let -
+        4. Let’s -
+        5. keep -
+        6. Get -
+        7. Feel -
+        8. Run -
+        9. Shall -
+        10. Cost -
+        
+        Question WordsWhat 
+        V-LEADS
+        Spoken English & Grammar
+         By- Yashpal Singh, Mobile No. - 9713125589
+        
+        Note- You can also watch my video on my YouTube Channel (V-Leads Institute).
+        Why
+        When
+        Where
+        How
+        Who
+        Structure – [ Question word+HV+Sub +MV+Obj+ow? ]
+        Which
+        Whose
+        Whom
+        How many
+        How much
+        Structure – [Question word+ Noun + HV+Sub +MV+Obj+ow?]
+        Vocabulary –
+        1. Main Verbs - 800
+        2. Daily Usages Meanings - 600
+        3. Daily Usages Sentences – 300
+        Speaking Rules (Part-2)
+        Rules
+         [To+v1]
+        1. Has to/Have to
+        2. Had to
+        3. Will have to
+        4. Going to
+        5. Able to
+        6. About to
+        7. Having to
+        8. Want to /wants to
+        [Sub + Has to/Have to + V1 + Obj + Ow]
+        [V1+ing]
+        9. Like/Likes
+        10. Keep on / keeps on
+        11. Feel like /feels like
+        12. Found of
+        13. Cannot help
+        14. Could not help
+        15. Start / Starts
+        [Sub + keep on/keeps on + v1ing +Obj+ ow]
+        16. Stop/Stops
+        16. Insist on/Insists on
+        17. Could have
+        18. Would have
+        19. Must have /should have
+        20. Make
+        21. Get
+        22. Let
+        Passive Voice
+        Present Tense
+         Tense Helping verb
+        1. Present indefinite – is /am are+v3
+        2. Present continuous- is /am are +being +v3
+        
+        
+        3. Present perfect - has/have been +v3
+        Past Tense
+        1. Past indefinite - was / were +v3
+        2. Past continuous - was / were +being+v3
+        3. Past perfect - had been+v3
+        Future Tense
+        1. Future indefinite - Will be/shall be+v3
+        2. Future perfect - Will/shall have+ been+ v3
+        
+        
+        [ Obj + HV + MV3 + by +Sub + Ow]
+        Modals (Voice)
+         Modal
+        1. Can be- (Ability)
+        2. Could be (For Past)
+        3. May be (Request)
+        4. Might be (Possibility)
+        
+        5. Would be
+        7. Must be/should be/
+        8. Has to be/Have to be
+        9. Had to be
+        10. Will have to be
+        11. Should have been
+        12. To + be +V3
+        [ Obj + Modal Be + MV3 + by +Sub + Ow]
+        V-LEADS
+        Spoken English & Grammar
+         By- Yashpal Singh, Mobile No. - 9713125589
+        
+        Note- You can also watch my video on my YouTube Channel (V-Leads Institute).
+        Vocabulary –
+        1. Synonyms - 1000
+        2. Antonyms - 1000
+        3. Phrasal verbs – 500
+        4. Proverbs / Idioms - 300
+        5. Meanings - 200
+        Basic Topics
+        1. Importance of English 2. Importance of Education
+        
+        3. Importance of Mobile 4. Importance of Money
+        5. Importance of Environment 6. Importance of Knowledge
+        7. Importance of Water 8. Importance of Book
+        9. Importance of Friend 10. Importance of Parents
+        11. Importance of Teacher 12. Importance of T.V.
+        13. Importance of Computer 14. Importance of Media
+        15. Importance of School 16. Importance of College
+        17. Importance of Agriculture 18. Importance of Police
+        19. Importance of Government 20. Importance of God
+        21. Importance of Guru 22. Importance of Culture
+        23. Importance of Transportation 24. Importance of Coaching
+        25. Importance of Game & Sports 26 Importance of Science
+        27. Importance of festival 28 Democracy
+        29. Importance of Health 30 Importance of Internet
+        Topic for Group Discussion
+        Which is better -?
+        1. Village life and City life
+        2. Government job and Private Job
+        3. Joint family and Nuclear family
+        4. Indian’s Product and China’s Product
+        5. Mobile and television
+        6. Govt. School and Private school
+        7. Love marriage and Arrange marriage
+        8. School life and College life
+        9. Girl Child and Boy Child
+        10. Indian culture and western culture
+        11. Theoretical Education and Practical Education
+         Topic for Pannel Discussion
+        1. Democracy 2. Corruption
+        3. Demonetization 4. Technology
+        5. Terrorism 6. Tourism
+        7. Globalization 8. Privatization
+        9. Election 10. Woman improvement
+        11. Education 12. Media
+        13. Social sites 14. Unemployment
+        15 poverty 16 Pollution
+         s
+       </p>
+    </div> 
+  </div>
+  </div>
+
+   <!--my JavaScript -->
+   <script src="main.js"></script>
+   <script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+ </body>
+</html>

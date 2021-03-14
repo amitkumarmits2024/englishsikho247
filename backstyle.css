@@ -1,0 +1,168 @@
+.body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+div {
+  list-style-type: none;
+  overflow: hidden;
+  align-content: center;
+  align-self: center;
+}
+.w3-row .w3-rest {
+  color: #DD5822;
+}
+.w3-black .btn-group {
+  letter-spacing: 2px;
+}
+.w3-black .btn-group h6 {
+  font-size: 12px;
+}
+.w3-black .btn-group a :hover  {
+  color: rgb(255, 255, 255);
+}
+.w3-black .btn-group .btn {
+  color: rgb(255, 123, 0);
+}
+.line {
+  width: auto;
+  height: 2px;
+  background-color: rgb(255, 0, 0);
+}
+.tutorial {
+  position: absolute;
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+  z-index: 1;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  left: 0;
+
+}
+.tutorial .kids{
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.tutorial .basic{
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.tutorial .academic{
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  align-self: start;
+}
+.tutorial .competitive{
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.kids h5{
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+.basic h5{
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+.academic h5{
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+.competitive h5{
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+.topright{
+  position: relative;
+  padding: 8px;
+  font-size: 30px;
+  color: white;
+  background-color: #0c1c29;
+  z-index: 3;
+  float: right;
+  float: top;
+ 
+}
+.topright .fas-fa-times {
+  color: white;
+}
+.page1 {
+  background: rgb(2,0,36);
+  background: linear-gradient(-45deg, rgb(177, 71, 0) 35%, rgb(175, 56, 0) 40%, rgb(0, 0, 0) 10%);
+  align-content: center;
+  padding: 8%;
+}
+.page2 {
+  background: rgb(2,0,36);
+  background: linear-gradient(-45deg, rgb(177, 71, 0) 35%, rgb(175, 56, 0) 40%, rgb(26, 30, 49) 10%);
+  align-content: center;
+  padding: 8%;
+}
+.container .tagline h1 {
+  color: rgb(255, 255, 255);
+  
+}
+.container .tagline {
+  color: rgb(255, 255, 255);
+}
+.container .img {
+  float: center;
+  align-content: center;
+}
+.line2 {
+  width: auto;
+  height: 1px;
+  background-color: grey;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+.hindi{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+
+

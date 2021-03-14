@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+   <!--my CSS -->
+  <link rel="stylesheet" href="backstyle.css">
+  <link rel="stylesheet" href="sidenavbar.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="Overview.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1075419b2d.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alata&family&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@100&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+   
+  <title>Kids</title>
+
+</head>
+
+<body class="body">
+   
+  <!--logo section-->
+    <div style="padding-top:24px;" class="w3-row">
+      <div style="width:30%" class="w3-col w3-mobile w3-container w3-center w3-dark">
+        <img class="mx-auto d-block img-fluid" src="weblogo.png" alt="logo" style="min-width: 250px; height: 30px;">
+       </div>
+       <div  style="width:40%" class="w3-col w3-mobile w3-container w3-hide-small w3-dark">
+        
+       </div>
+       <div style="font-family:'Roboto', sans-serif; width: 30%;font-size: 14px;" class="w3-col w3-mobile w3-center w3-container w3-dark w3-text-white ">
+         <p id="tagline"><strong>THE BEST PLATEFORM TO LEARN ENGLISH</strong></p>
+       </div>
+    </div>
+   
+
+   <!--navbar-->
+   <div class="navbar">
+    <div style="font-size: 18px; letter-spacing: 2px;" class="w3-bar w3-light-grey">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-animate-left w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
+      <a href="home.html" class="w3-bar-item w3-button"><i class="fas fa-home"></i></a>
+      <a href="alphabets.html"class="w3-bar-item w3-button w3-hide-small">KIDS</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">BASIC</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">ACADEMIC</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">COMPETITIVE</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">SPEAKING</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">EXAMPLES</a>
+      <a href="overview.html" class="w3-bar-item w3-button w3-hide-small">BLOG</a>
+      <a href="vedio.html" class="w3-bar-item w3-button"><i class="fas fa-video"></i></a>
+      <a href="book.html" class="w3-bar-item w3-button"><i class="fas fa-book"></i></a>
+      <a href="download.html" class="w3-bar-item w3-button"><i class="fas fa-cloud-download-alt"></i></a>
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fas fa-sign-in-alt"></i></a>
+     
+    </div>
+   </div>
+
+<!--sidebar-->
+  <div class="w3-row">
+    <div class="w3-bar-block w3-grey w3-sidebar w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+      <h5>KIDS ENGLISH</h5>
+      <a class="w3-bar-item w3-button" href="#">Alphabets</a>
+      <a class="w3-bar-item w3-button" href="#">Vowels</a>
+      <a class="w3-bar-item w3-button" href="#">Consonants</a>
+      <a class="w3-bar-item w3-button" href="#">Words</a>
+      <a class="w3-bar-item w3-button" href="#">Jumble Letters</a>
+      <a class="w3-bar-item w3-button" href="#">Colour Names</a>
+      <a class="w3-bar-item w3-button" href="#">Body Parts</a>
+      <a class="w3-bar-item w3-button" href="#">Relations</a>
+      <a class="w3-bar-item w3-button" href="#">Pronunciation</a>
+      <a class="w3-bar-item w3-button" href="#">Synonyms</a>
+      <a class="w3-bar-item w3-button" href="#">Antonyms</a>
+      <a class="w3-bar-item w3-button" href="#">Poems</a>
+      <a class="w3-bar-item w3-button" href="#">Extra Cirriculars</a>
+      <h5>BASIC ENGLISH</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Speaking Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+      <h5>ACADEMIC</h5>
+      <a class="w3-bar-item w3-button" href="#">Alphabets</a>
+      <a class="w3-bar-item w3-button" href="#">Vowels</a>
+      <a class="w3-bar-item w3-button" href="#">Consonants</a>
+      <a class="w3-bar-item w3-button" href="#">Words</a>
+      <a class="w3-bar-item w3-button" href="#">Jumble Letters</a>
+      <a class="w3-bar-item w3-button" href="#">Colour Names</a>
+      <a class="w3-bar-item w3-button" href="#">Body Parts</a>
+      <a class="w3-bar-item w3-button" href="#">Relations</a>
+      <a class="w3-bar-item w3-button" href="#">Pronunciation</a>
+      <a class="w3-bar-item w3-button" href="#">Synonyms</a>
+      <a class="w3-bar-item w3-button" href="#">Antonyms</a>
+      <a class="w3-bar-item w3-button" href="#">Poems</a>
+      <a class="w3-bar-item w3-button" href="#">Extra Cirriculars</a>
+      <h5>COMPETITIVE</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+      <h5>SPEAKING RULES</h5>
+      <a class="w3-bar-item w3-button" href="#">Overview</a>
+      <a class="w3-bar-item w3-button" href="#">Parts Of Speech</a>
+      <a class="w3-bar-item w3-button" href="#">Determiners</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'There'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'It'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'This'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'That'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'These'</a>
+      <a class="w3-bar-item w3-button" href="#">Use Of 'Those'</a>
+      <a class="w3-bar-item w3-button" href="#">Without Main Verbs</a>
+      <a class="w3-bar-item w3-button" href="#">Tense</a>
+      <a class="w3-bar-item w3-button" href="#">Model</a>
+      <a class="w3-bar-item w3-button" href="#">Important Rules</a>
+      <a class="w3-bar-item w3-button" href="#">Question Words</a>
+      <a class="w3-bar-item w3-button" href="#">Modals(voice)</a>
+    </div>
+
+<!--page content-->    
+    <div class="w3-main w3-container w3-mobile" style="margin-left:200px; width: 70%;">
+    <div class="w3-teal">
+      <div class="w3-container">
+        <h1>Overview Of Spoken English</h1>
+      </div>
+    </div>
+    
+    <div class="overview w3-container w3-mobile w3-text-white w3-dark-grey">
+      
+
+      <p> क्रिया किसे कहते है एवं क्रिया के प्रकार 
+        "वह शब्द है जिसके माध्यम से subject के कार्य, अधिकार, सम्बन्ध या अवस्था का बोध होता है| वाक्यों में प्रयोग के आधार पर क्रिया को मुख्य रूप से दो भागो में बांटा गया है जो है 1. मुख्य क्रिया और 2. सहायक क्रिया|" /><p></p></p>
+      
+
+        <p>vkil s gekjk igyk iz‛u gS fd vaxz st+h e sa fdrus Alphabet gksr s gSa \ ges a mEehn gS fd vkies a l s dbZ dgsax s 26A ;g lgh
+          mŸkj ugha gSA lgh mŸkj gS & ,d (one). Alphabet rks d soy ,d ‚kCn (word) gS ftldk eryc gksrk gS o.kZekykA
+          Alphabet ¼o.kZekyk½ rk s ,d gh gS] 26 rks v{kj@o.kZ (letters) gk srs gSaA </p>
+      <p><b>Chapter-1 </b></p>
+    <h2><b>Basic terminology of English</b></h2>
+      <p>1. Verb</p>
+      <p>2. Noun - संज्ञा </p>   
+      <p>3. Pronoun</p>
+      <p>4. Adjective</p>
+      <p>5. Adverb </p>  
+         <p>6. Conjunction </p>
+         <p>7. Articles</p>
+         <p>8. Determiners</p>
+<h3>Part of speech</h3> 
+
+<p> Parts of Speech
+ <p> These are the words that you use to make a sentence.</p>
+ <p><b> Verbs-</b></p>
+  <p>Action verbs, express what is happening (do, work). State verbs express a situation (be, have).</p>
+  <br>
+  <p><b>Nouns</b></p>
+ <p> Nouns represent people (teacher, Mary), places (town, Asia) and things (table, music).</p>
+ <br>
+  Adjectives
+  An adjective is a word that tells us more about a noun (big, red, expensive).
+  Adverbs
+  Adverbs tell us more about verbs, adjectives or adverbs (loudly, really, extremely).
+  Determiners
+  Determiners are words like the, an, this that start a noun phrase.
+  Prepositions
+  A preposition expresses the relationship of a noun or pronoun to another word (at, in, from).
+  Pronouns
+  Pronouns are small words like you, ours, some that can take the place of a noun.
+  Conjunctions
+  Conjunctions join two parts of a sentence (and, but, though).
+  Interjections
+  Short exclamations with no real grammatical value (ah, dear, er)
+  
+  </p>
+         <p><b>Chapter-2 </b></p>
+         <p>2. Use of There, It, This, That, These and those </p>
+         <p><b>Chapter-3 </b></p>
+         <p><b>3. without Main Verb Sentences</b></p>
+        
+      <p> 1. is /am / are -</p>
+       <p> 2. was/were -</p>
+       <p> 3. will be /shall be</p>
+      <p>  4. Can be5. Could be </p>
+        <p>6. Must be/should be</p> 
+        <p>7. has/have8. had </p>
+       <p> 9. Will have/shall have</p>
+        <p>10. Can have</p>
+      <p>  11. Could have</p>
+        <p>12. Must have/should have</p>
+        <p>13. Has been/ have been</p>
+        <p>14. Had been</p>
+        <p>15. Would have been /should have been</p>
+       <p><b> Structure-</b></p>
+       <p> [Subject + Helping Verb + Adjective + object]</p>
+
+       <p><b> Chapter-4   </b></p>
+        <p><b>4. Tense- (Time)</b></p>
+        <p><b>Present Tense</b></p>
+        
+        <p>1. Present indefinite – do/does/v1
+          +s/es</p>
+        <p>2. Present continuous- is /am are +v1
+          ing</p>
+        <p>3. present perfect - Has/Have +v3</p>
+        <p>4. Present perfect continuous - + time- Has / have+ been+v1
+          ing</p>
+        
+        <p><b>Past Tense</b></p>
+       <p> 5. past indefinite - did +v2</p>
+        <p>6. Past continuous - - was / were +v1
+          ing</p>
+        <p>7. past perfect - Had+v3</p>
+       <p> 8. Past perfect continuous - + time- Had been+v1
+        ing</p>
+        <p><b>Future Tense</b></p>
+        <p>9. Future indefinite - will/shall+v1</p>
+        <p>10. Fast continuous - will /shall+ be +v1
+          ing</p>
+        <p>11. Fast perfect - will have/shall have+v3</p>
+        <p>12. Past perfect continuous - + time will/shall have been+v1
+          ing</p>
+        
+        <p><b>Structure-</b></p>
+         <p><b>[Subject + Helping Verb + Main Verb + object]</b></p>
+         <p><b> Chapter-5   </b></p>
+         <p><b>Modals</b></p>
+         <p>Modal Name</p>
+        <p>1. Can- (ability)</p>
+        <p>2. Could (for past)</p>
+        <p>3. May (request)</p>
+       <p> 4. Might (possibility)</p>
+        <p>5. Would</p>
+        <p>5. Would</p>
+        <p>7. must/should/ought to</p>
+        <p>8. Used to</p>
+       <p> 9. Need -</p>
+        <p>10. Dare -</p>
+        <p><b>[Sub + Modal + V1 + Obj + Ow]</b></p>
+
+        <p><b> Chapter-6   </b></p>
+        <p><b>Some More Important Rules-</b></p>
+        
+        <p>1. Imperative Sentences
+          2. Emphatic -
+          3. Let -
+          4. Let’s -
+          5. keep -
+          6. Get -
+          7. Feel -
+          8. Run -
+          9. Shall -
+          10. Cost -</p>
+        
+
+          <p><b> Chapter-7   </b></p>
+        <p><b>Question Words</b></p>
+       <p> What 
+        Why
+        When
+        Where
+        How
+        Who</p>
+        <p><b>Structure – [ Question word+HV+Sub +MV+Obj+ow? ]</b></p>
+        <p>Which
+          Whose
+          Whom
+          How many
+          How much</p>
+        <p><b>Structure – [Question word+ Noun + HV+Sub +MV+Obj+ow?]</b></p>
+
+        <p><b> Chapter-8   </b></p>
+       <p><b> Vocabulary </b></p>
+        <p>1. Main Verbs - 800</p>
+        <p>2. Daily Usages Meanings - 600</p>
+       <p> 3. Daily Usages Sentences – 300</p>
+
+       <p><b> Chapter-9   </b></p>
+        <p><b>Speaking Rules (Part-2)</b></p>
+        <p>Rules  [To+v1]</p>
+         
+        <p>1. Has to/Have to</p>
+        <p>2. Had to</p>
+       <p> 3. Will have to</p>
+        <p>4. Going to</p>
+        <p>5. Able to</p>
+        <p>6. About to</p>
+        <p>7. Having to</p>
+        <p>8. Want to /wants to</p>
+        <p>[Sub + Has to/Have to + V1 + Obj + Ow]</p>
+
+        <p><b> Chapter-10   </b></p>
+        <p><b>[V1+ing]</b></p>
+        <p>9. Like/Likes</p>
+       <p> 10. Keep on / keeps on</p>
+        <p>11. Feel like /feels like</p>
+        <p>12. Found of</p>
+        <p>13. Cannot help</p>
+        <p>14. Could not help</p>
+       <p> 15. Start / Starts</p>
+        <p>[Sub + keep on/keeps on + v1ing +Obj+ ow]</p>
+
+        <p><b> Chapter-11   </b></p>
+        <p>16. Stop/Stops</p>
+        <p>16. Insist on/Insists on</p>
+        <p>17. Could have</p>
+        <p>18. Would have</p>
+        <p>19. Must have /should have</p>
+        <p>20. Make</p>
+        <p>21. Get</p>
+     <p>   22. Let</p>
+
+     <p><b> Chapter-12  </b></p>
+       <p> <b>Passive Voice</b></p>
+       <p><b> Present Tense</b></p>
+        <p><b> Tense Helping verb</b></p>
+      <p>  1. Present indefinite – is /am are+v3</p>
+      <p>  2. Present continuous- is /am are +being +v3</p>
+        
+        
+        <p>3. Present perfect - has/have been +v3</p>
+       <p><b> Past Tense</b></p>
+        <p>1. Past indefinite - was / were +v3</p>
+        <p>2. Past continuous - was / were +being+v3</p>
+       <p> 3. Past perfect - had been+v3</p>
+        <p><b>Future Tense</b></p>
+       <p> 1. Future indefinite - Will be/shall be+v3</p>
+        <p>2. Future perfect - Will/shall have+ been+ v3</p>
+        
+        
+        <p><b>[ Obj + HV + MV3 + by +Sub + Ow]</b></p>
+        <p><b>Modals (Voice)</b></p>
+        <p><b> Modal</b></p>
+       <p> 1. Can be- (Ability)</p>
+      <p>  2. Could be (For Past)</p>
+       <p> 3. May be (Request)</p>
+        <p>4. Might be (Possibility)</p>
+        
+       <p> 5. Would be</p>
+        <p>7. Must be/should be</p>
+        <p>8. Has to be/Have to be</p>
+       <p> 9. Had to be</p>
+        <p>10. Will have to be</p>
+        <p>11. Should have been</p>
+        <p>12. To + be +V3</p>
+        <p><b>[ Obj + Modal Be + MV3 + by +Sub + Ow]</b></p>
+       
+        
+        <p><b> Chapter-13   </b></p>
+        <p><b>Vocabulary –</b></p>
+        <p>1. Synonyms - 1000</p>
+        <p>2. Antonyms - 1000</p>
+        <p>3. Phrasal verbs – 500</p>
+        <p>4. Proverbs / Idioms - 300</p>
+        <p>5. Meanings - 200</p>
+
+        <p><b> Chapter-14   </b></p>
+        <p><b>Basic Topics</b></p>
+        <div style="background: blue;" class="w3-row">
+          <div class="w3-col"><p>1. Importance of English</p>
+            <p> 3. Importance of Mobile       </p>
+             <p>5. Importance of Environment   </p>
+             <p>7. Importance of Water         </p>
+             <p>9. Importance of Friend        </p>
+             <p>11. Importance of Teacher      </p>
+            <p> 13. Importance of Computer     </p>
+             <p>15. Importance of School       </p>
+            <p> 17. Importance of Agriculture </p>
+           <p>  19. Importance of Government </p>
+           <p>  21. Importance of Guru </p>
+            <p> 23. Importance of Transportation </p>
+             <p>25. Importance of Game & Sports </p>
+             <p>27. Importance of festival </p>
+             <p>29. Importance of Health </p>   </div>
+          <div style="background-color: brown;" class="w3-col">  2. Importance of Education 
+            <p> 4. Importance of Money</p>   
+          <p>6. Importance of Knowledge</p>
+        <p>8. Importance of Book</p>
+        <p>10. Importance of Parents</p>
+        <p>12. Importance of T.V.</p>
+        <p>14. Importance of Media</p>
+        <p>16. Importance of College</p>
+        <p>18. Importance of Police</p>
+        <p>20. Importance of God</p>
+        <p>22. Importance of Culture</p>
+        <p>24. Importance of Coaching</p>
+        <p>26 Importance of Science</p>
+      m<p>28 Democracy</p>
+<p>30 Importance of Internet</p>
+
+
+
+        </div>
+
+        </div>
+        <p><b> Chapter-14   </b></p>
+        <p><b>Topic for Group Discussion</b></p>
+        
+        <p><b>Which is better -?</b></p>
+        <p>1. Village life and City life</p>
+       <p> 2. Government job and Private Job</p>
+       <p> 3. Joint family and Nuclear family</p>
+        <p>4. Indian’s Product and China’s Product</p>
+        <p>5. Mobile and television</p>
+       <p> 6. Govt. School and Private school</p>
+        <p>7. Love marriage and Arrange marriage</p>
+        <p>8. School life and College life</p>
+        <p>9. Girl Child and Boy Child</p>
+        <p>10. Indian culture and western culture</p>
+        <p>11. Theoretical Education and Practical Education</p>
+
+        <p><b> Chapter-15   </b></p>
+        <p> <b>Topic for Pannel Discussion</b></p>
+        <p>1. Democracy</p> <p>2. Corruption</p>
+       <p> 3. Demonetization 4.</p> Technology
+        <p>5. Terrorism 6. Tourism</p>
+        <p>7. Globalization 8. Privatization</p>
+       <p> 9. Election 10. Woman improvement</p>
+      <p>  11. Education 12. Media</p>
+       <p> 13. Social sites 14. Unemployment</p>
+        <p>15 poverty 16 Pollution
+          s</p>
+      
+<p>Chapter -2
+  <p><b>Without Main Verb Sentences</b></p>
+  <p>1.Is/Am /Are   -  है</p>
+  <p>Rule-[ s + is / am / are + ob + ow]</p>		
+  <p> Examples-</p> 
+  	<p>वह इस समय कमरे में है</p>
+       <p>He is in the room at this time</p>
+  	<p>वह मेरा दोस्त नहीं है</p>
+        <p>He is not my friend </p>
+  <p>आज बहुत गर्मी है</p>
+        <p>It is very hot today</p>
+  <p>क्या तुम उसके भाई हो</p>
+       <p> Are you his brother?</p>		
+  <p><b>	Practice Exercise</b></p>
+    
+
+  <p><b>2. Was/ were   -  था</b></p>
+<p><b>Rule- [s + was/were + ob + ow]</b></p>
+<p><b>Examples- </b></p> 
+<p>वह मेरा मित्र था।</p>
+     <p>He was my Friend.</p> 
+    <p> उस दिन वह मेरे साथ नहीं था।</p>
+    <p> He was not with me that day. </p>
+	<p>वे कल स्कूल में थे।</p>
+     <p>They were in the school yesterday.</p> 
+     <p>क्या वह आपका दोस्त था?</p>
+     <p>Was He your Friend? </p>
+	<p><b>Practice Exercise</b></p>
+
+
+ <p><b> 3.	Will be /Shall be   - होगा / होगा</b></p>
+ 
+<p><b>Rule- [s + will be /shall be +ob+ow]</b></p>
+
+<p><b>Examples-</b></p>
+
+
+<p>वह मेरा दोस्त होगा।</p>
+<p>He will be my Friend. </p>
+<p>आपके साथ सब कुछ अच्छा होगा।</p>
+<p>Everything will be good with you. </p>
+    
+<p>    वह इस समय बिलासपुर में होंगे।</p>
+ 
+<p>He will be in Bilaspur at this time.</p>
+<p> क्या आपका दोस्त घर पर नहीं होगा?</p>
+<p>Will your friend not be at home?</p>
+
+Mixed Examples:- 
+
+<p>I like you a lot.    -     मैं तुम्हे बहुत चाहता हूँ।</p> 
+
+<p>There were many people shouting on the road.- सड़क पर कई लोग चिल्ला रहे थे।</p>
+<p>Will he have gone to school? - क्या वह स्कूल गया होगा?</p>
+<p>I often go to his place home.  -  मैं अक्सर उसके घर जाता हूं। </p>
+He sometimes comes my home. 
+We wake up till late. 
+With whose brother was I dancing? 
+You’ve been searching something since afternoon. 
+I know it will happen. 
+You had gone there. 
+I have seen Ram. 
+His father came to my home. 
+He has told me. 
+Did he say? 
+He never went. 
+Suresh will meet me. 
+We left for school at 7. 
+Children never went. 
+I don’t like this. 
+Ram loves him/her. 
+Everything changes with time. 
+Money changes one’s character. 
+He has found something, probably a pen. 
+I have solved this question before as well. 
+
+    
+    
+    
+    
+    
+
+
+
+<br>
+<br>
+
+
+<h1> *******************<b>Important Essays</b>*********************</h1>
+<br>
+<h2><b>Essay on Wonders of Science</b></h2>
+    
+  <p><b>INTRODUCTION – </b></p>
+  <br>
+  <p>science plays an important role in our daily life. It has made our life easier and more comfortable. 
+    It is totally age of science.There are many wonders of science. Science is nothing but a systematic way of knowledge.
+     It is tough to live life without science now a days.</p>
+
+<p><b>SCIENTIFIC  INVENTIONS – </b></p>
+
+<p>Scientists have invented many things which made our life easy like trains, Aeroplane, A.C, Refrigerator, T.V, Fan etc. 
+  falling of an apple from a tree had helped Newton to discover the law of gravity. electricity is the greatest invention of man.
+   It serves us in hundred and thousands of way. It runs computer, factories, trains etc. 
+  it also cools and keeps our houses warm. Modern life is impossible without electricity. We are around inventions of science.</p>
+
+<p><b>THE  BOON -  </b></p>
+<p>Science has become boon for human being. It has made our life easier and comfortable. 
+  It has invented many things like Ac, fridge, aeroplanes, trains etc. which make our life very comfortable. 
+  Now we can contact in any parts of the world within seconds which was not possible before. So we can say it is really the boon for us.</p>
+<p><b>THE  BANE  -  </b></p>
+<p>If science is boon for us at the same time it is bane also. Science has invented like gun, bombs, nuclear energy which can destroy anything in few seconds.
+   Missile is also bad invention of science which can destroy country also.</p>
+
+<p><b>MEANS  OF  COMMUNICATIONS  -  </b></p>
+<p>Mobiles, phones, internet are the greatest invention of science. Man can reach any part  of the world within hours by the help of buses, cars, trains, ships and aeroplanes. 
+  He had even reached the other planets with the help of science. Now we can contact anyone in any part of the world within seconds.</p>
+
+<p><b>MEDICINE  AND  SURGERY -  </b></p>
+
+<p>Medicine and surgery are also the greatest invention of science. Science has cured man from many diseases. It has done wonders in the field of medical science. 
+  Heart surgery and heart transplantation have become an ordinary things now a days. Science has controlled many diseases like T.B. leprosy and cancer too.</p>
+
+<p><b>COMPUTER  - </b></p>
+
+<p>Computer are the greatest and most wonderful invention of science. Computers have helped in many fields. We can watch movie, take information, calculation etc. by the help of computer. 
+  They are used in schools, in colleges, at stations, in hospitals almost at every place.</p>
+
+
+<p><b>CONCLUSION  - </b></p>
+
+<p>Science is a great helper to modern man. It has made our life easy and comfortable. Without science we cannot imagine our life. 
+  It man is the master of world. It is because of science only. science is a good servant but a bad master also.</p>
+
+
+
+<br>
+<br>
+<h1><b>Essay on Importance of Games and sports</b></h1>
+
+<p><b><u>1. INTRODUCTION -  </u></b></p>
+<p>Games and sports play an important role in our life. They make us not only physically but also mentally fit. Development of the body is as important that of the mind. Games and sports help in the development of body and mind of the student.
+   It is said that ‘Health is wealth’ and games are good means to get proper health. They keep us active and make us smart.</p>
+
+<p><b><u>2. TYPES  OF  GAMES – </u></b></p>
+
+<p>There are two types of games.</p>
+<p><b>(1)	Indoor  Games</b></p>
+<p><b>(2)	Outdoor  Games</b></p>
+
+<p><b>INDOOR  GAMES – </b></p>
+<p>Indoor games are the games which are played inside the hall like Chess, Ludo, Table Tennis, Carrom etc.</p>
+
+<p><b>OUTDOOR  GAMES – </b></p>
+<p>Outdoor games are the games which are played in open ground like Cricket, Hockey , Football etc.</p>
+
+<p><b><u>3. Leadership  Quality – </u></b></p>
+
+<p>Games and sports help a lot in developing the leadership quality. When we play any game with rules and regulation and manage other players it increases the leadership quality in us. 
+  If you are the captain of any team you get all the facts of leadership.</p>
+
+<p><b><u>4. CAREER – </u></b></p>
+<p>There is a great career in this field. If you want to pursue physical education . you can do B.P.ed and M.P.ed you can become a coach, trainer and others by getting physical education.
+   It you are good in any particular game then you can become national player.</p>
+
+<p><b><u>5. DISCIPLINE – </u></b></p>
+
+<p>Games and sports develop a sense of discipline. Each game has certain rules and regulation and players have to follow all those rules. If any player breaks the rule he will be out of the gate. A disciplined team wins the game.  The players follow the rules and decision of the umpire. 
+  This teaches them the importance of rules in life. Therefore we can say games and sports teach us discipline.</p>
+
+<p><b><u>6. UNITY – </u></b></p>
+
+<p>Games and sports develop the spirit of unity. Players in the ground have not partiality. They do not ask caste or religion. They play united and win the game. 
+  This quality makes them good citizen. If there is unity in society, we should have better cooperation.</p>
+
+<p><b><u>7. CONCLUSION – </u></b></p>
+<p>Games and sports are therefore very important. A student learns many things form sports like discipline, unity, leadership etc. a student  who takes parts in games and sports gets over all development. 
+  We should play at least one game daily and convey others to do so. We should also encourage the society members to focus on games.</p>
+
+
+<h1><b>Letters</b></h1>
+
+<p><b>There are two types of letter</b></p>
+
+<p><b>1.     Formal letter</b></p>
+
+<p><b>2.   Informal letter     </b></p>
+
+<h2><b>Format of letters</b></h2>
+
+<h3><b>Formal letter- </b></h3>
+
+<p>Those letters which are written for official purpose, are known as formal letters. Like- to Collector, to Editor, to Manager, to Director etc.     </p>
+<p>Address</p>
+<p>Date</p>
+<p>The………………</p>
+<p>……………………</p>
+
+<p>Respected Sir,</p>
+
+<p>Sub: -……………………………………………….</p>
+
+<p>I would like to draw your attention ……….………………………………………………………………………………………………
+  .…………………………………………………………………………………………………………………………………………………………………
+  .………………………………………………………………………………………………………………………………………………………………….
+  ……………………………………………………………………………………………………………………………………………………………
+  
+
+  <p>I shall be thankful / obliged to you</p>
+  </p>
+
+
+<p>Yours……………..</p>
+
+<p>Name…………….</p>
+
+<h5>Examples - </h5>
+
+<br>
+<br>
+
+
+<p><b>Question-1. You are Subhash Dubey residing in Indore. Write a letter to the collector of your district for imposing restriction/ban on the use of loud speaker.</b></p>
+
+
+<p>B-30 Saket Nagar</p>
+
+<p>Indore (M.P.)</p>
+<p>30 Aug. 2019</p>
+<p>The collector</p>
+
+<p>Indore (M.P.)  </p>
+<p>Respected Sir</p>
+<p><b>Sub: - Regarding ban on the use of loud speakers.</b></p>
+
+<p>I would like to draw your kind attention towards nuisance caused by use of loud speaker.
+   I am a student of class xii. My Board exam is getting closed. All students of class xii are busy in their preparations of exams. 
+   This is very valuable time for us. But some people do not understand the value of time. 
+  They use loudspeakers at high pitch. Because of it we are getting disturbed.</p>
+<br>
+<p>Therefore I request to you to take strict action against those who are found guilty.
+  I shall be thankful to you.
+  </p>
+
+<p>Thanking you</p>
+
+<p>Yours faithfully</p>
+<p>Subhash Dubey   </p>
+
+<br>
+<br>
+
+<p><b>Question-2. You are Kirti Gupta residing at 149 Sudama Nagar, Indore. 
+  Write a letter to the collector of your district about the lack of facilities and malfunctioning of the government hospital of your area.</b></p>
+
+
+<p>149, Sudama Nagar</p>
+
+<p>Indore (M.P.)</p>
+<p>2 Sept. 2019</p>
+<p>The collector</p>
+
+<p>Indore (M.P.)  </p>
+<p>Respected Sir</p>
+<p><b>Sub: - Regarding lack of facilities and malfunctioning of Govt. hospital.</b></p>
+
+<p>I would like to draw your kind attention towards lack of facilities and malfunctioning of government hospital of my area. there is no proper system in this hospital doctors and nurses do not come at time. Even doctors do not see patients regularly x-Ray machine is not working.
+   Medicines given by doctors are not available in at medical store people are facing many problems. There is no clean drinking water facility..</p>
+<br>
+<p>Therefore, I request you to take strict action against those who are found guilty
+  I shall be thankful to you.</p>
+
+<p>Thanking you</p>
+
+<p>Yours faithfully</p>
+<p>Kirti Gupta  </p>
+
+<br><br>
+<p><b>Question-3. Question-: You are Roshni residing at 70 B, Ramgarh colony, Damoh.
+   Write a letter of complaint to the supervisor, MP electricity board, Damoh regarding the frequent breakdown in electricity supply in your area.</b></p>
+
+
+<p>70-B Rajgarh colony</p>
+
+<p>Damoh  ( M.P )</p>
+<p>28 Dec. 20….</p>
+<p>The supervisor</p>
+
+<p>M.P Electricity board  </p>
+<p>Damoh</p>
+<p>Respected Sir</p>
+<p><b>Sub: - Regarding frequent breakdown in electricity supply</b></p>
+
+<p>With due respect I want to draw your kind attention to frequent breakdown in electricity supply in my area. It causes a lot of problem to the residents of the area. 
+  Board exams are near and students are unable to study at night due to electricity breakdown and therefore cases of robbery and theft have also increased. </p>
+<br>
+<p>I hope you would realize our problems and would take strict action against those who are found guilty. 
+  I shall be thankful to you.
+  </p>
+
+<p>Thanking you</p>
+
+<p>Yours faithfully</p>
+<p>Roshni  </p>
+
+<p><b>Question-4 : Write a letter to the editor of newspaper about the insanitary condition of the streets and bad state of the roads. </b></p>
+
+
+<p>70-B Rajgarh colony</p>
+
+<p>Gwalior  ( M.P )</p>
+<p>20 Dec. 20….</p>
+<p>The Editor</p>
+
+<p>The Times of India </p>
+<p>Gwalior(M.P.)</p>
+<p>Respected Sir</p>
+<p><b>Sub: - Regarding insanitary conditions</b></p>
+
+<p>I would like to draw your kind attention towards the insanitary condition of the streets and bad state of roads in our locality. The sweepers are very careless and irregular. They do not come at time so there is garbage and rubbish all around. The drains also remain choked. There is bad smell all around. 
+  It becomes very difficult to breathe. Besides this, roads are also in very bad state to drive vehicles on such roads.  </p>
+<br>
+<p>I hope you would pay attention towards this problem and take strict action against those who are found guilty.</p>
+<p>I shall be thankful to you.</p>
+
+<p>Thanking you</p>
+
+<p>Yours faithfully</p>
+<p>Vaishnavi  </p>
+
+
+<p><b>Question:5 - You are Abhishek, a student of summer spring boy’s school, Ujjain. in your school there is no proper arrangement of clean drinking water.
+  Write a letter to your Principal, describing the above problem and to take action to solve this problem.  </b></p>
+
+
+<p>70-B Rajgarh colony</p>
+
+<p>Gwalior  ( M.P )</p>
+<p>20 Dec. 20….</p>
+<p>The principal </p>
+
+<p>Summer spring boy’s school  </p>
+<p>Ujjain</p>
+<p>Respected Sir</p>
+<p><b>Sub: - Regarding clean drinking water </b></p>
+
+<p>Respected sir,
+  I beg to state that there is no proper arrangement of clean drinking water in the school. 
+  It is too hot these days and it becomes difficult to survive without water whole day. 
+  Therefore, many students drink the dirty water coming in taps from the taps which are open and I have not been cleaned since a long time. 
+  As a result they are getting ill. </p>
+<br>
+Therefore, I request you to take action to solve this problem as soon as possible
+.</p>
+<p>
+  Therefore I request you to take action to solve this problem as soon as possible.
+  </p>
+
+<p>Thanking you</p>
+
+<p>Yours sincerely</p>
+<p>Abhishek </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+
+
+  </p>
+
+
+
+    </div>
+
+    <div class="w3-rest w3-container w3-dark">
+      <div class="overview w3-text-white">
+        <h5>1. Overview Of Sentences</h5>
+        
+      </div> 
+    </div> 
+  </div>
+  <div class="w3-rest w3-bar-block w3-hide-small">
+    <p>rest</p>
+  </div> 
+  </div>
+
+   <!--my JavaScript -->
+   <script src="main.js"></script>
+   <script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+ </body>
+</html>
